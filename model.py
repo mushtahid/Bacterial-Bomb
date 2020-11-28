@@ -14,7 +14,6 @@ bact = []
 fin_param = []       
 no_bact = 1000
 no_iter = 1000000000
-carry_on = True
 
 def news_move (a):
     if 0 < random.random() <= 0.05:
@@ -133,6 +132,7 @@ ax = fig.add_axes([0, 0, 1, 1])
 plt.title('Bacteria Density Map 1')
 plt.ylim(0, 300)
 plt.xlim(0, 300)
+plt.scatter(x0,y0, marker='X',color='black')
 for i in range(no_bact):
     plt.scatter(bact[i][0], bact[i][1], s=10, color='red', alpha=0.1)
 plt.show()
@@ -142,9 +142,9 @@ ax = fig.add_axes([0, 0, 1, 1])
 plt.title('Bacteria Density Map 2')
 # plt.ylim(0, 300)
 # plt.xlim(0, 300)
+plt.scatter(x0,y0, marker='X',color='black')
 for i in range(no_bact):
     plt.scatter(bact[i][0], bact[i][1], s=10, color='red', alpha=0.1)
-plt.scatter(x0,y0, marker='X',color='black')
 plt.show()
 
 # plt.title('Bacteria Density Map 3')
