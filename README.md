@@ -24,9 +24,9 @@ The project states that a bacterial bomb is being set off in a town on top of a 
 5. Building height = 75 metres (m)
 6. Bacteria vertical movement probabilities:
     *	If bacterium at or above building height:
-        *	20% chance of rising by 1 metre/second
-        *	10% chance of staying  at the same height
-        *	70% chance of falling by 1 metre/second
+        * 20% chance of rising by 1 metre/second
+        * 10% chance of staying  at the same height
+        * 70% chance of falling by 1 metre/second
     * If bacterium below the building height:
         * Drop by 1metre/second
 
@@ -88,6 +88,9 @@ The programme then saves the density map of the bacteria that landed in the town
 7. Project_information.pdf: Document detailing the intention and use of the software, issues during development and how these were overcome (or not), general sources used, the thought processes going into the software design, and the software development process.
 8. bacterial_bomb_uml_activity.pdf: The UML activity diagram of the programme.
 9. README.md: The readme file of the programme.
-9. LISCENSE.md: The liscense file of the programme.
+9. LICENSE.md: The liscense file of the programme.
+
+# License:
+This project is licensed under the GNU General Public License v3.0 or any later version.
 
 
